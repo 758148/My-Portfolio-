@@ -135,3 +135,123 @@ void loop() {
   </footer>
 </body>
 </html>
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: #333;
+  padding: 20px;
+}
+
+.navbar h1 {
+  color: white;
+  display: inline-block;
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: right;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  color: #f7a700;
+}
+
+/* Introduction Section */
+#intro {
+  background: #f7a700;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+#intro h2 {
+  font-size: 3em;
+}
+
+.cta-btn {
+  background-color: #222;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #f7a700;
+  color: #333;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 20px;
+}
+
+.section-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#projects .project-card {
+  display: inline-block;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#projects .project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#projects .project-card h3 {
+  margin-top: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
